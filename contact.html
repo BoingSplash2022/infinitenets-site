@@ -40,12 +40,12 @@
 
         <div class="form-card">
           <!--
-            This form posts to FormSubmit, which emails each message to the address
-            in the action URL. FIRST TIME: submit once, then click the activation
-            link FormSubmit emails to nick.dunn2019@gmail.com. After that it just works.
-            See README.md ("Contact form") for options and how to hide the address.
+            This form posts to FormSubmit, which forwards each message to your inbox.
+            The action uses FormSubmit's alias (not your email), so your address is
+            not exposed in the page source. Activation is a one-time click in the
+            email FormSubmit sends. See README.md ("Contact form") for details.
           -->
-          <form action="https://formsubmit.co/nick.dunn2019@gmail.com" method="POST">
+          <form action="https://formsubmit.co/30af919b2cbafcd7ba99732de74ecb7a" method="POST">
             <!-- FormSubmit settings -->
             <input type="hidden" name="_subject" value="New enquiry from infinitenets.net" />
             <input type="hidden" name="_template" value="table" />
