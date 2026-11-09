@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Infinite Nets — The cricket net at home</title>
+  <meta name="description" content="Infinite Nets is an immersive, high-repetition VR cricket training ecosystem for grassroots cricket, schools and clubs. Practise batting at home, year-round." />
+  <meta property="og:title" content="Infinite Nets — The cricket net at home" />
+  <meta property="og:description" content="An immersive, high-repetition VR cricket training ecosystem for grassroots cricket, schools and clubs." />
+  <meta property="og:image" content="assets/hero.jpg" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===== Nav ===== -->
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="Infinite Nets" />
+        <span>Infinite Nets</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html" class="active hide-sm">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">News</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn" href="about.html#portal">Player Login <span class="pill">Soon</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-inner">
+      <img class="crest" src="assets/logo.png" alt="Infinite Nets crest" />
+      <h1>The cricket net at home.</h1>
+      <p class="lead">An immersive, high-repetition VR cricket training ecosystem for grassroots cricket, schools and local clubs.</p>
+      <div class="cta-row">
+        <a class="btn" href="#film">Watch the film</a>
+        <a class="btn ghost" href="about.html">Learn more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Video ===== -->
+  <section class="section" id="film">
+    <div class="wrap">
+      <p class="eyebrow" style="text-align:center">See it in action</p>
+      <div class="film-wrap">
+
+        
+
+        <-- OPTION B — YouTube/Vimeo instead: delete the <video> block above and
+             uncomment this, replacing VIDEO_ID with your YouTube id:
+        <div class="film-embed">
+          <iframe src="https://youtu.be/qTK0td1hfnU?si=1W3Kl4RjLBQjHXhA"
+                  title="Infinite Nets" allowfullscreen></iframe>
+        </div>
+        -->
+
+        <p class="caption">Gameplay film — add your video at <code>media/showcase.mp4</code> (or switch to a YouTube embed; see index.html).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== What it is ===== -->
+  <section class="section" style="padding-top:0">
+    <div class="wrap">
+      <div class="row">
+        <div class="col-txt">
+          <p class="eyebrow">What it is</p>
+          <h2>Unlimited practice, on demand.</h2>
+          <p class="muted">Put on a Meta Quest headset, clip on the bat-handle accessory, and face high-quality bowling as often as you like — no bowler, no booking, no weather.</p>
+          <ul class="feature-list">
+            <li>All bowling variations, from pace to spin</li>
+            <li>Gamified drills and high-repetition sessions</li>
+            <li>A practical answer to winter and facility barriers</li>
+          </ul>
+        </div>
+        <div class="col-img">
+          <img src="assets/headset.jpg" alt="Meta Quest headset with the Infinite Nets bat-handle accessory" />
+        </div>
+      </div>
+
+      <div class="row reverse">
+        <div class="col-img">
+          <img src="assets/drills.jpg" alt="In-game Infinite Nets drill selection" />
+        </div>
+        <div class="col-txt">
+          <p class="eyebrow">Train with purpose</p>
+          <h2>Drills that build real technique.</h2>
+          <p class="muted">Work through structured drills — good length, pull and drive, spin and more — with instant feedback on every shot. Valuable from first-timers through to experienced players.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Measure band ===== -->
+  <section class="section band">
+    <div class="wrap">
+      <p class="eyebrow">Measure everything</p>
+      <h2>Your net sessions, measured.</h2>
+      <p>Every session is tracked — balls faced, runs, strike rate, a broadcast-style wagon wheel and more. Soon you'll see it all in one place through your player portal.</p>
+      <img src="assets/summary.jpg" alt="Infinite Nets in-game session summary with wagon wheel" style="max-width:720px;margin:10px auto 0;border-radius:14px;border:1px solid var(--border);" />
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Infinite Nets" />
+        <div>
+          <span style="font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:14px;">Infinite Nets</span>
+          <small>High repetition. Year-round access. A platform for grassroots growth.</small>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">News</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html#portal">Player Login</a>
+      </div>
+    </div>
+    <div class="wrap" style="margin-top:20px;">
+      <small class="muted">© <span id="yr"></span> Infinite Nets. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
