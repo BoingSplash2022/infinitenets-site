@@ -1,0 +1,29 @@
+# Infinite Nets
+
+> Infinite Nets is an immersive virtual reality (VR) cricket batting simulator for the Meta Quest 3 headset. It lets cricketers practise batting at home, year-round, by facing realistic pace and spin bowling using a bat-handle accessory. Built for grassroots cricket: individual players, schools and clubs.
+
+## What it is
+- Product: Infinite Nets — a VR cricket batting trainer / simulator
+- Platform: Meta Quest 3 (standalone VR headset)
+- Hardware: uses a bat-handle accessory that clips to the Quest controller for realistic shot-making
+- Price: free to download
+- Audience: grassroots cricket — beginners to experienced players, plus schools and clubs
+
+## Key features
+- Face all bowling variations, from pace to spin
+- Gamified, structured drills (good length, pull and drive, spin, and more) with high-repetition practice
+- Every session is tracked: balls faced, runs, strike rate, fours, sixes, and a broadcast-style wagon wheel showing shot placement
+- An online player portal (in development) for following stats and trends over time
+- Designed as a practical answer to winter weather and limited access to nets, bowlers and facilities
+
+## Why it exists
+Good cricket practice is hard to come by: nets are scarce, winters are wet and dark, and finding bowling at the right standard is difficult. Infinite Nets gives players unlimited, high-quality batting practice on demand, at home, whatever the season.
+
+## Pages
+- Home: https://www.infinitenets.net/
+- About: https://www.infinitenets.net/about.html
+- News: https://www.infinitenets.net/blog.html
+- Contact: https://www.infinitenets.net/contact.html
+
+## Contact
+- Use the contact form at https://www.infinitenets.net/contact.html

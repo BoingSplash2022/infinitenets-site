@@ -5,12 +5,98 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Infinite Nets — The cricket net at home</title>
   <meta name="description" content="Infinite Nets is an immersive, high-repetition VR cricket training ecosystem for grassroots cricket, schools and clubs. Practise batting at home, year-round." />
-  <meta property="og:title" content="Infinite Nets — The cricket net at home" />
+  <meta property="og:title" content="Infinite Nets — The VR cricket net at home" />
   <meta property="og:description" content="An immersive, high-repetition VR cricket training ecosystem for grassroots cricket, schools and clubs." />
   <meta property="og:image" content="assets/hero.jpg" />
   <meta property="og:type" content="website" />
   <link rel="icon" href="assets/logo.png" />
+  <link rel="canonical" href="https://www.infinitenets.net/" />
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- ===== Structured data (JSON-LD) — machine-readable facts for search + AI ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.infinitenets.net/#org",
+        "name": "Infinite Nets",
+        "url": "https://www.infinitenets.net/",
+        "logo": "https://www.infinitenets.net/assets/logo.png",
+        "description": "Infinite Nets makes an immersive virtual reality cricket batting trainer for Meta Quest, built for grassroots cricket, schools and clubs.",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "customer support",
+          "url": "https://www.infinitenets.net/contact.html"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.infinitenets.net/#website",
+        "url": "https://www.infinitenets.net/",
+        "name": "Infinite Nets",
+        "publisher": { "@id": "https://www.infinitenets.net/#org" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "@id": "https://www.infinitenets.net/#app",
+        "name": "Infinite Nets",
+        "applicationCategory": "GameApplication",
+        "applicationSubCategory": "VR Cricket Batting Simulator",
+        "operatingSystem": "Meta Quest 3, Meta Quest (Android-based standalone VR)",
+        "url": "https://www.infinitenets.net/",
+        "image": "https://www.infinitenets.net/assets/hero.jpg",
+        "description": "Infinite Nets is a virtual reality cricket batting simulator for the Meta Quest 3 headset. Players use a bat-handle accessory to face realistic bowling — pace and spin — through gamified drills, with every session tracked for runs, strike rate, boundaries and a broadcast-style wagon wheel. It is designed to give grassroots cricketers, schools and clubs unlimited, year-round batting practice at home.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "GBP",
+          "description": "Free to download"
+        },
+        "publisher": { "@id": "https://www.infinitenets.net/#org" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://www.infinitenets.net/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can you practise cricket batting in virtual reality?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. With Infinite Nets on a Meta Quest 3 headset, you can face high-quality bowling and play real batting shots using a tracked bat-handle accessory. It provides unlimited repetitions at home, year-round, without needing a net, a bowler or good weather."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What equipment do I need to play VR cricket with Infinite Nets?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You need a Meta Quest 3 virtual reality headset and the Infinite Nets bat-handle accessory, which clips onto the controller so you can play realistic batting shots. No other equipment, nets or space beyond a safe play area is required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who is Infinite Nets for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Infinite Nets is built for grassroots cricket — individual players, schools and local clubs. It suits all abilities, from complete beginners learning to bat to experienced players sharpening technique against pace and spin."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Infinite Nets track your batting statistics?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Every session records balls faced, runs, strike rate, fours and sixes, and a broadcast-style wagon wheel showing where each shot went. Players will also be able to follow their progress and trends over time through an online player portal."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -99,6 +185,44 @@
       <h2>Your net sessions, measured.</h2>
       <p>Every session is tracked — balls faced, runs, strike rate, a broadcast-style wagon wheel and more. Soon you'll see it all in one place through your player portal.</p>
       <img src="assets/summary.jpg" alt="Infinite Nets in-game session summary with wagon wheel" style="width:100%;max-width:720px;height:auto;margin:10px auto 0;border-radius:14px;border:1px solid var(--border);" />
+    </div>
+  </section>
+
+  <!-- ===== FAQ (answers the questions people actually ask) ===== -->
+  <section class="section" id="faq" style="padding-top:0">
+    <div class="wrap" style="max-width:800px;">
+      <p class="eyebrow" style="text-align:center">Common questions</p>
+      <h2 style="text-align:center;margin-bottom:1.2em;">VR cricket, answered.</h2>
+
+      <style>
+        .faq details{border:1px solid var(--border);border-radius:12px;background:var(--panel);
+          margin-bottom:12px;padding:0 20px;}
+        .faq summary{list-style:none;cursor:pointer;padding:18px 0;font-weight:700;font-size:17px;
+          color:var(--text);display:flex;justify-content:space-between;align-items:center;gap:16px;}
+        .faq summary::-webkit-details-marker{display:none;}
+        .faq summary::after{content:"+";color:var(--accent);font-size:24px;font-weight:400;line-height:1;}
+        .faq details[open] summary::after{content:"\2013";}
+        .faq .faq-a{padding:0 0 18px;color:var(--muted);line-height:1.65;}
+      </style>
+
+      <div class="faq">
+        <details>
+          <summary>Can you practise cricket batting in virtual reality?</summary>
+          <div class="faq-a">Yes. With Infinite Nets on a Meta Quest 3 headset, you can face high-quality bowling and play real batting shots using a tracked bat-handle accessory. It gives you unlimited repetitions at home, year-round — no net, no bowler and no need for good weather.</div>
+        </details>
+        <details>
+          <summary>What equipment do I need to play VR cricket?</summary>
+          <div class="faq-a">You need a Meta Quest 3 virtual reality headset and the Infinite Nets bat-handle accessory, which clips onto the controller so you can play realistic batting shots. No other equipment, nets or space beyond a safe play area is required.</div>
+        </details>
+        <details>
+          <summary>Who is Infinite Nets for?</summary>
+          <div class="faq-a">Infinite Nets is built for grassroots cricket — individual players, schools and local clubs. It suits all abilities, from complete beginners learning to bat through to experienced players sharpening their technique against pace and spin.</div>
+        </details>
+        <details>
+          <summary>Does Infinite Nets track your batting stats?</summary>
+          <div class="faq-a">Yes. Every session records balls faced, runs, strike rate, fours and sixes, and a broadcast-style wagon wheel showing where each shot went. Players will also be able to follow their progress and trends over time through an online player portal.</div>
+        </details>
+      </div>
     </div>
   </section>
 
